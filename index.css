@@ -1,0 +1,43 @@
+body{
+	padding : 1%;
+}
+.first_div{
+	display : block;
+	background : #E77E23;
+	padding : 5px;
+	margin-bottom : 1%;
+}
+
+.module{
+	background : #EEEEEE;
+	margin-bottom : 1%;
+}
+.footer_module{
+	font-size : .75rem;
+	clear : both;
+	width : 100%;
+}
+div > p, h2, time{
+	padding : 10px;
+}
+article > p{
+	padding : 10px;
+}
+article > footer{
+	padding :10px;
+	border-top: solid 1px;
+}
+footer > p{
+	padding: 10px;
+}
+@media screen and (min-width : 900px){
+	.main_content{
+	width : 66%;
+	float : left;
+}
+	.side_content{
+	width : 33%;
+	float : right;
+	margin-left : 1%;
+}
+}
