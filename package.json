@@ -4,9 +4,9 @@
   "description": "Changes the font-size dynamically",
   "main": "index.js",
   "scripts": {
-    "start": "npm lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "run lite-server"
+    "lite": "lite-server",
   },
   "repository": {
     "type": "git",
