@@ -1,4 +1,6 @@
 $("document").ready(function(){
+  $("#namaste").css("display" , "block");
+	$("#namaste").fadeOut(5000);
 	$(".module").prepend("<div class = 'first_div'>Module: <input type='range'></div>");
 
 	$("input[type='range']").each(function(){
