@@ -1,0 +1,24 @@
+{
+  "name": "first_project",
+  "version": "1.0.0",
+  "description": "Changes the font-size dynamically",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "run lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadavajay11/First_project.git"
+  },
+  "author": "Ajay Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadavajay11/First_project/issues"
+  },
+  "homepage": "https://github.com/yadavajay11/First_project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
